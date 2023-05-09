@@ -1,0 +1,19 @@
+.btn {
+  padding: 8px 30px;
+  border-radius: 8px;
+  background: #ff2c55;
+  border: 1px solid transparent;
+  cursor: pointer;
+  &.solid {
+    color: #fff;
+  }
+  &.outline {
+    color: #ff2c55;
+    border: 1px solid #ff2c55;
+    background: transparent;
+  }
+
+  &:disabled {
+    background: #ff2c565a;
+  }
+}
